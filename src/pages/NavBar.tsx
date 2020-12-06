@@ -6,7 +6,7 @@ type Props = any;
 
 const NavBar: React.FC<Props> = (props) => {
   return (
-    <Navbar variant="dark" className="commet-color">
+    <Navbar bg="primary" variant="dark">
       <LinkContainer to="/">
         <Navbar.Brand>g-drive-image-tag-tool</Navbar.Brand>
       </LinkContainer>
