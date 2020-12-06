@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/g-drive-image-tag-tool/static/css/main.b0a4c2a7.chunk.css",
-    "main.js": "/g-drive-image-tag-tool/static/js/main.79802e59.chunk.js",
-    "main.js.map": "/g-drive-image-tag-tool/static/js/main.79802e59.chunk.js.map",
+    "main.js": "/g-drive-image-tag-tool/static/js/main.8b36012c.chunk.js",
+    "main.js.map": "/g-drive-image-tag-tool/static/js/main.8b36012c.chunk.js.map",
     "runtime-main.js": "/g-drive-image-tag-tool/static/js/runtime-main.be9d8141.js",
     "runtime-main.js.map": "/g-drive-image-tag-tool/static/js/runtime-main.be9d8141.js.map",
     "static/js/2.6ed8d481.chunk.js": "/g-drive-image-tag-tool/static/js/2.6ed8d481.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.be9d8141.js",
     "static/js/2.6ed8d481.chunk.js",
     "static/css/main.b0a4c2a7.chunk.css",
-    "static/js/main.79802e59.chunk.js"
+    "static/js/main.8b36012c.chunk.js"
   ]
 }
