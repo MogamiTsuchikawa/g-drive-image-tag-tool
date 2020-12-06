@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/g-drive-image-tag-tool/static/css/main.b0a4c2a7.chunk.css",
-    "main.js": "/g-drive-image-tag-tool/static/js/main.b42c07c3.chunk.js",
-    "main.js.map": "/g-drive-image-tag-tool/static/js/main.b42c07c3.chunk.js.map",
+    "main.js": "/g-drive-image-tag-tool/static/js/main.e77e3699.chunk.js",
+    "main.js.map": "/g-drive-image-tag-tool/static/js/main.e77e3699.chunk.js.map",
     "runtime-main.js": "/g-drive-image-tag-tool/static/js/runtime-main.be9d8141.js",
     "runtime-main.js.map": "/g-drive-image-tag-tool/static/js/runtime-main.be9d8141.js.map",
-    "static/js/2.6ed8d481.chunk.js": "/g-drive-image-tag-tool/static/js/2.6ed8d481.chunk.js",
-    "static/js/2.6ed8d481.chunk.js.map": "/g-drive-image-tag-tool/static/js/2.6ed8d481.chunk.js.map",
+    "static/js/2.f220db4f.chunk.js": "/g-drive-image-tag-tool/static/js/2.f220db4f.chunk.js",
+    "static/js/2.f220db4f.chunk.js.map": "/g-drive-image-tag-tool/static/js/2.f220db4f.chunk.js.map",
     "static/js/3.a53b08d4.chunk.js": "/g-drive-image-tag-tool/static/js/3.a53b08d4.chunk.js",
     "static/js/3.a53b08d4.chunk.js.map": "/g-drive-image-tag-tool/static/js/3.a53b08d4.chunk.js.map",
     "index.html": "/g-drive-image-tag-tool/index.html",
     "static/css/main.b0a4c2a7.chunk.css.map": "/g-drive-image-tag-tool/static/css/main.b0a4c2a7.chunk.css.map",
-    "static/js/2.6ed8d481.chunk.js.LICENSE.txt": "/g-drive-image-tag-tool/static/js/2.6ed8d481.chunk.js.LICENSE.txt"
+    "static/js/2.f220db4f.chunk.js.LICENSE.txt": "/g-drive-image-tag-tool/static/js/2.f220db4f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.be9d8141.js",
-    "static/js/2.6ed8d481.chunk.js",
+    "static/js/2.f220db4f.chunk.js",
     "static/css/main.b0a4c2a7.chunk.css",
-    "static/js/main.b42c07c3.chunk.js"
+    "static/js/main.e77e3699.chunk.js"
   ]
 }
