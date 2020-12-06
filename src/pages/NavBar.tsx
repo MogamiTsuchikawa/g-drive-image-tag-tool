@@ -11,7 +11,8 @@ const NavBar: React.FC<Props> = (props) => {
   return (
     <Navbar bg="primary" variant="dark">
       <LinkContainer to={rootURL+"/"}>
-      <img
+        <div>
+        <img
         alt=""
         src="./mogami.png"
         width="30"
@@ -19,6 +20,8 @@ const NavBar: React.FC<Props> = (props) => {
         className="d-inline-block align-top"
       />{' '}
         <Navbar.Brand>g-drive-image-tag-tool</Navbar.Brand>
+        </div>
+      
       </LinkContainer>
       <Nav className="mr-auto">
         <LinkContainer to={rootURL+"/"}>
