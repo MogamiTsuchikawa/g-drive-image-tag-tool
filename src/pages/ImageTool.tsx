@@ -14,14 +14,19 @@ const ImageTool: React.FC<Props> = (props) => {
     setShareURL(e.target.value);
   }
   const handleOnClickedGenerateBtn = () => {
-    let tmp = shareURL;
-    tmp = tmp.replace("https://drive.google.com/file/d/", "");
-    tmp = tmp.replace("/view?usp=sharing", "");
-    tmp = "http://drive.google.com/uc?export=view&id=" + tmp;
-    setMdTag("![テキスト](" + tmp + ")");
-    setImgTag("<img src=\"" + tmp + "\" />");
-    setRawURL(tmp);
-    setGenerated(true);
+    if (shareURL === "") {
+      alert("共有URLを入力してください");
+    } else {
+      let tmp = shareURL;
+      tmp = tmp.replace("https://drive.google.com/file/d/", "");
+      tmp = tmp.replace("/view?usp=sharing", "");
+      tmp = "http://drive.google.com/uc?export=view&id=" + tmp + "#image.png";
+      setMdTag("![テキスト](" + tmp + ")");
+      setImgTag("<img src=\"" + tmp + "\" />");
+      setRawURL(tmp);
+      setGenerated(true);
+    }
+
   }
   function execCopy(string: string) {
     var temp = document.createElement('textarea');
@@ -59,8 +64,8 @@ const ImageTool: React.FC<Props> = (props) => {
           <h3 className="text-center">imgタグ変換ツール</h3>
         </Row>
         <Row>
-          
-            <Form.Control type="text" placeholder="共有URL" onChange={handleOnChangeShareURL} />
+
+          <Form.Control type="text" placeholder="共有URL" onChange={handleOnChangeShareURL} />
         </Row>
         <Row><Button onClick={handleOnClickedGenerateBtn} className="text-center mt-1">生成</Button></Row>
         {generated ?
@@ -93,7 +98,7 @@ const ImageTool: React.FC<Props> = (props) => {
               </InputGroup>
             </Row>
             <Row>
-              画像プレビュー（生成が正しく行われていると下に画像が表示されます）
+              画像プレビュー（生成が正しく行われていると下に画像が表示されます）<br/>
           <img src={rawURL} />
             </Row>
             <br />
