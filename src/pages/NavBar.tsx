@@ -33,7 +33,7 @@ const NavBar: React.FC<Props> = (props) => {
       </Nav>
       <Nav>
         <div>
-          <a href="https://mogamitsuchikawa.net" style={linkStyle}>製作者サイトへ</a>
+          <a href="https://mogami.dev" style={linkStyle}>製作者サイトへ</a>
         </div>
       </Nav>
     </Navbar>
