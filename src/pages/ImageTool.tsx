@@ -20,7 +20,7 @@ const ImageTool: React.FC<Props> = (props) => {
       let tmp = shareURL;
       tmp = tmp.replace("https://drive.google.com/file/d/", "");
       tmp = tmp.replace("/view?usp=sharing", "");
-      tmp = "http://drive.google.com/uc?export=view&id=" + tmp + "#image.png";
+      tmp = "https://drive.google.com/uc?export=view&id=" + tmp + "#image.png";
       setMdTag("![テキスト](" + tmp + ")");
       setImgTag("<img src=\"" + tmp + "\" />");
       setRawURL(tmp);
